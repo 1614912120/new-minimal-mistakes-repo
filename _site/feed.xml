@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/minimal-mistakes-master/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/minimal-mistakes-master/" rel="alternate" type="text/html" /><updated>2024-10-24T22:11:35-04:00</updated><id>http://localhost:4000/minimal-mistakes-master/feed.xml</id><title type="html">Minimal Mistakes</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Michael Rose</name></author><entry><title type="html">Exclude Post from Search Index</title><link href="http://localhost:4000/minimal-mistakes-master/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="Exclude Post from Search Index" /><published>2017-11-28T00:00:00-04:00</published><updated>2018-02-19T09:06:00-04:00</updated><id>http://localhost:4000/minimal-mistakes-master/jekyll/post-exclude-search</id><content type="html" xml:base="http://localhost:4000/minimal-mistakes-master/jekyll/post-exclude-search/"><![CDATA[<p>This post should not appear in the search index because it has the following YAML Front Matter:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">search</span><span class="pi">:</span> <span class="no">false</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>Note:</strong> <code class="language-plaintext highlighter-rouge">search: false</code> only works to exclude posts when using Lunr as a search provider.</p>
+
+<p>To exclude files when using Algolia as a search provider add an array to <code class="language-plaintext highlighter-rouge">algolia.files_to_exclude</code> in your <code class="language-plaintext highlighter-rouge">_config.yml</code>. For more configuration options be sure to check their <a href="https://community.algolia.com/jekyll-algolia/options.html">full documentation</a>.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">algolia</span><span class="pi">:</span>
+  <span class="c1"># Exclude more files from indexing</span>
+  <span class="na">files_to_exclude</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">index.html</span>
+    <span class="pi">-</span> <span class="s">index.md</span>
+    <span class="pi">-</span> <span class="s">excluded-file.html</span>
+    <span class="pi">-</span> <span class="s">_posts/2017-11-28-post-exclude-search.md</span>
+    <span class="pi">-</span> <span class="s">subdirectory/*.html</span>
+</code></pre></div></div>]]></content><author><name>Michael Rose</name></author><category term="Jekyll" /><summary type="html"><![CDATA[This post should not appear in the search index because it has the following YAML Front Matter:]]></summary></entry><entry><title type="html">Exclude Post from Search Index</title><link href="http://localhost:4000/minimal-mistakes-master/test/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="Exclude Post from Search Index" /><published>2017-11-28T00:00:00-04:00</published><updated>2018-02-19T09:05:34-04:00</updated><id>http://localhost:4000/minimal-mistakes-master/test/jekyll/post-exclude-search</id><content type="html" xml:base="http://localhost:4000/minimal-mistakes-master/test/jekyll/post-exclude-search/"><![CDATA[<p>This post should not appear in the search index because it has the following YAML Front Matter:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">search</span><span class="pi">:</span> <span class="no">false</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>Note:</strong> <code class="language-plaintext highlighter-rouge">search: false</code> only works to exclude posts when using <strong>Lunr</strong> as a search provider.</p>
+
+<p>To exclude files when using <strong>Algolia</strong> as a search provider add an array to <code class="language-plaintext highlighter-rouge">algolia.files_to_exclude</code> in your <code class="language-plaintext highlighter-rouge">_config.yml</code>. For more configuration options be sure to check their <a href="https://community.algolia.com/jekyll-algolia/options.html">full documentation</a>.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">algolia</span><span class="pi">:</span>
+  <span class="c1"># Exclude more files from indexing</span>
+  <span class="na">files_to_exclude</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">index.html</span>
+    <span class="pi">-</span> <span class="s">index.md</span>
+    <span class="pi">-</span> <span class="s">excluded-file.html</span>
+    <span class="pi">-</span> <span class="s">_posts/2017-11-28-post-exclude-search.md</span>
+    <span class="pi">-</span> <span class="s">subdirectory/*.html</span>
+</code></pre></div></div>]]></content><author><name>Michael Rose</name></author><category term="test" /><category term="Jekyll" /><summary type="html"><![CDATA[This post should not appear in the search index because it has the following YAML Front Matter:]]></summary></entry><entry><title type="html">Exclude Post from Search Index</title><link href="http://localhost:4000/minimal-mistakes-master/docs/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="Exclude Post from Search Index" /><published>2017-11-28T00:00:00-04:00</published><updated>2018-02-19T09:06:00-04:00</updated><id>http://localhost:4000/minimal-mistakes-master/docs/jekyll/post-exclude-search</id><content type="html" xml:base="http://localhost:4000/minimal-mistakes-master/docs/jekyll/post-exclude-search/"><![CDATA[<p>This post should not appear in the search index because it has the following YAML Front Matter:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">search</span><span class="pi">:</span> <span class="no">false</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>Note:</strong> <code class="language-plaintext highlighter-rouge">search: false</code> only works to exclude posts when using Lunr as a search provider.</p>
+
+<p>To exclude files when using Algolia as a search provider add an array to <code class="language-plaintext highlighter-rouge">algolia.files_to_exclude</code> in your <code class="language-plaintext highlighter-rouge">_config.yml</code>. For more configuration options be sure to check their <a href="https://community.algolia.com/jekyll-algolia/options.html">full documentation</a>.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">algolia</span><span class="pi">:</span>
+  <span class="c1"># Exclude more files from indexing</span>
+  <span class="na">files_to_exclude</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">index.html</span>
+    <span class="pi">-</span> <span class="s">index.md</span>
+    <span class="pi">-</span> <span class="s">excluded-file.html</span>
+    <span class="pi">-</span> <span class="s">_posts/2017-11-28-post-exclude-search.md</span>
+    <span class="pi">-</span> <span class="s">subdirectory/*.html</span>
+</code></pre></div></div>]]></content><author><name>Michael Rose</name></author><category term="docs" /><category term="Jekyll" /><summary type="html"><![CDATA[This post should not appear in the search index because it has the following YAML Front Matter:]]></summary></entry><entry><title type="html">Layout: Header Video</title><link href="http://localhost:4000/minimal-mistakes-master/layout/uncategorized/layout-header-video/" rel="alternate" type="text/html" title="Layout: Header Video" /><published>2017-01-23T00:00:00-04:00</published><updated>2017-01-23T00:00:00-04:00</updated><id>http://localhost:4000/minimal-mistakes-master/layout/uncategorized/layout-header-video</id><content type="html" xml:base="http://localhost:4000/minimal-mistakes-master/layout/uncategorized/layout-header-video/"><![CDATA[<p>This post should display a <strong>header with a responsive video</strong>, if the theme supports it.</p>
+
+<h2 id="settings">Settings</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Required</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">id</code></td>
+      <td><strong>Required</strong></td>
+      <td>ID of the video</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">provider</code></td>
+      <td><strong>Required</strong></td>
+      <td>Hosting provider of the video, either <code class="language-plaintext highlighter-rouge">youtube</code> or <code class="language-plaintext highlighter-rouge">vimeo</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="youtube">YouTube</h3>
+
+<p>To embed the following YouTube video at url <code class="language-plaintext highlighter-rouge">https://www.youtube.com/watch?v=-PVofD2A9t8</code> (long version) or <code class="language-plaintext highlighter-rouge">https://youtu.be/-PVofD2A9t8</code> (short version) into a post or page’s main content you’d use:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">video</span><span class="w"> </span><span class="na">id</span><span class="o">=</span><span class="s2">"-PVofD2A9t8"</span><span class="w"> </span><span class="na">provider</span><span class="o">=</span><span class="s2">"youtube"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/-PVofD2A9t8" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>To embed it as a video header you’d use the following YAML Front Matter</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">header</span><span class="pi">:</span>
+  <span class="na">video</span><span class="pi">:</span>
+    <span class="na">id</span><span class="pi">:</span> <span class="s">-PVofD2A9t8</span>
+    <span class="na">provider</span><span class="pi">:</span> <span class="s">youtube</span>
+</code></pre></div></div>
+
+<h3 id="vimeo">Vimeo</h3>
+
+<p>To embed the following Vimeo video at url <code class="language-plaintext highlighter-rouge">https://vimeo.com/212731897</code> into a post or page’s main content you’d use:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">video</span><span class="w"> </span><span class="na">id</span><span class="o">=</span><span class="s2">"212731897"</span><span class="w"> </span><span class="na">provider</span><span class="o">=</span><span class="s2">"vimeo"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://player.vimeo.com/video/212731897?dnt=true" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>To embed it as a video header you’d use the following YAML Front Matter</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">header</span><span class="pi">:</span>
+  <span class="na">video</span><span class="pi">:</span>
+    <span class="na">id</span><span class="pi">:</span> <span class="m">212731897</span>
+    <span class="na">provider</span><span class="pi">:</span> <span class="s">vimeo</span>
+</code></pre></div></div>]]></content><author><name>Michael Rose</name></author><category term="Layout" /><category term="Uncategorized" /><category term="video" /><category term="layout" /><summary type="html"><![CDATA[This post should display a header with a responsive video, if the theme supports it.]]></summary></entry><entry><title type="html">Layout: Header Video</title><link href="http://localhost:4000/minimal-mistakes-master/test/layout/uncategorized/layout-header-video/" rel="alternate" type="text/html" title="Layout: Header Video" /><published>2017-01-23T00:00:00-04:00</published><updated>2017-01-23T00:00:00-04:00</updated><id>http://localhost:4000/minimal-mistakes-master/test/layout/uncategorized/layout-header-video</id><content type="html" xml:base="http://localhost:4000/minimal-mistakes-master/test/layout/uncategorized/layout-header-video/"><![CDATA[<p>This post should display a <strong>header with a responsive video</strong>, if the theme supports it.</p>
+
+<h2 id="settings">Settings</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Required</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">id</code></td>
+      <td><strong>Required</strong></td>
+      <td>ID of the video</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">provider</code></td>
+      <td><strong>Required</strong></td>
+      <td>Hosting provider of the video, either <code class="language-plaintext highlighter-rouge">youtube</code> or <code class="language-plaintext highlighter-rouge">vimeo</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="youtube">YouTube</h3>
+
+<p>To embed the following YouTube video at url <code class="language-plaintext highlighter-rouge">https://www.youtube.com/watch?v=-PVofD2A9t8</code> (long version) or <code class="language-plaintext highlighter-rouge">https://youtu.be/-PVofD2A9t8</code> (short version) into a post or page’s main content you’d use:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">video</span><span class="w"> </span><span class="na">id</span><span class="o">=</span><span class="s2">"-PVofD2A9t8"</span><span class="w"> </span><span class="na">provider</span><span class="o">=</span><span class="s2">"youtube"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/-PVofD2A9t8" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>To embed it as a video header you’d use the following YAML Front Matter</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">header</span><span class="pi">:</span>
+  <span class="na">video</span><span class="pi">:</span>
+    <span class="na">id</span><span class="pi">:</span> <span class="s">-PVofD2A9t8</span>
+    <span class="na">provider</span><span class="pi">:</span> <span class="s">youtube</span>
+</code></pre></div></div>
+
+<h3 id="vimeo">Vimeo</h3>
+
+<p>To embed the following Vimeo video at url <code class="language-plaintext highlighter-rouge">https://vimeo.com/212731897</code> into a post or page’s main content you’d use:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">video</span><span class="w"> </span><span class="na">id</span><span class="o">=</span><span class="s2">"212731897"</span><span class="w"> </span><span class="na">provider</span><span class="o">=</span><span class="s2">"vimeo"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://player.vimeo.com/video/212731897?dnt=true" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>To embed it as a video header you’d use the following YAML Front Matter</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">header</span><span class="pi">:</span>
+  <span class="na">video</span><span class="pi">:</span>
+    <span class="na">id</span><span class="pi">:</span> <span class="m">212731897</span>
+    <span class="na">provider</span><span class="pi">:</span> <span class="s">vimeo</span>
+</code></pre></div></div>]]></content><author><name>Michael Rose</name></author><category term="test" /><category term="Layout" /><category term="Uncategorized" /><category term="video" /><category term="layout" /><summary type="html"><![CDATA[This post should display a header with a responsive video, if the theme supports it.]]></summary></entry><entry><title type="html">Layout: Header Video</title><link href="http://localhost:4000/minimal-mistakes-master/docs/layout/uncategorized/layout-header-video/" rel="alternate" type="text/html" title="Layout: Header Video" /><published>2017-01-23T00:00:00-04:00</published><updated>2017-01-23T00:00:00-04:00</updated><id>http://localhost:4000/minimal-mistakes-master/docs/layout/uncategorized/layout-header-video</id><content type="html" xml:base="http://localhost:4000/minimal-mistakes-master/docs/layout/uncategorized/layout-header-video/"><![CDATA[<p>This post should display a <strong>header with a responsive video</strong>, if the theme supports it.</p>
+
+<h2 id="settings">Settings</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Required</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">id</code></td>
+      <td><strong>Required</strong></td>
+      <td>ID of the video</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">provider</code></td>
+      <td><strong>Required</strong></td>
+      <td>Hosting provider of the video, either <code class="language-plaintext highlighter-rouge">youtube</code> or <code class="language-plaintext highlighter-rouge">vimeo</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="youtube">YouTube</h3>
+
+<p>To embed the following YouTube video at url <code class="language-plaintext highlighter-rouge">https://www.youtube.com/watch?v=-PVofD2A9t8</code> (long version) or <code class="language-plaintext highlighter-rouge">https://youtu.be/-PVofD2A9t8</code> (short version) into a post or page’s main content you’d use:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">video</span><span class="w"> </span><span class="na">id</span><span class="o">=</span><span class="s2">"-PVofD2A9t8"</span><span class="w"> </span><span class="na">provider</span><span class="o">=</span><span class="s2">"youtube"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/-PVofD2A9t8" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>To embed it as a video header you’d use the following YAML Front Matter</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">header</span><span class="pi">:</span>
+  <span class="na">video</span><span class="pi">:</span>
+    <span class="na">id</span><span class="pi">:</span> <span class="s">-PVofD2A9t8</span>
+    <span class="na">provider</span><span class="pi">:</span> <span class="s">youtube</span>
+</code></pre></div></div>
+
+<h3 id="vimeo">Vimeo</h3>
+
+<p>To embed the following Vimeo video at url <code class="language-plaintext highlighter-rouge">https://vimeo.com/212731897</code> into a post or page’s main content you’d use:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">video</span><span class="w"> </span><span class="na">id</span><span class="o">=</span><span class="s2">"212731897"</span><span class="w"> </span><span class="na">provider</span><span class="o">=</span><span class="s2">"vimeo"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://player.vimeo.com/video/212731897?dnt=true" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>To embed it as a video header you’d use the following YAML Front Matter</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">header</span><span class="pi">:</span>
+  <span class="na">video</span><span class="pi">:</span>
+    <span class="na">id</span><span class="pi">:</span> <span class="m">212731897</span>
+    <span class="na">provider</span><span class="pi">:</span> <span class="s">vimeo</span>
+</code></pre></div></div>]]></content><author><name>Michael Rose</name></author><category term="docs" /><category term="Layout" /><category term="Uncategorized" /><category term="video" /><category term="layout" /><summary type="html"><![CDATA[This post should display a header with a responsive video, if the theme supports it.]]></summary></entry><entry><title type="html">Gemified Theme – Beta Release</title><link href="http://localhost:4000/minimal-mistakes-master/jekyll/gemified-theme-beta/" rel="alternate" type="text/html" title="Gemified Theme – Beta Release" /><published>2016-10-06T00:00:00-04:00</published><updated>2018-03-20T16:01:04-04:00</updated><id>http://localhost:4000/minimal-mistakes-master/jekyll/gemified-theme-beta</id><content type="html" xml:base="http://localhost:4000/minimal-mistakes-master/jekyll/gemified-theme-beta/"><![CDATA[<p>Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.</p>
+
+<p><a href="https://rubygems.org/gems/minimal-mistakes-jekyll"><code class="language-plaintext highlighter-rouge">minimal-mistakes-jekyll</code></a> can only be used with Jekyll proper. If you’re hosting on GitHub Pages or using that gem the theme won’t work. 3rd party themes haven’t been white-listed so it’s a no go for now.</p>
+
+<p>Fine with all that? Great. Let’s continue.</p>
+
+<p>If you’re migrating a site already using Minimal Mistakes and haven’t customized any of the <code class="language-plaintext highlighter-rouge">_includes</code>, <code class="language-plaintext highlighter-rouge">_layouts</code>, <code class="language-plaintext highlighter-rouge">_sass</code> partials, or <code class="language-plaintext highlighter-rouge">assets</code> this should be quick and painless.</p>
+
+<h2 id="step-1-remove-theme-files">Step 1: Remove Theme Files</h2>
+
+<p>Remove <code class="language-plaintext highlighter-rouge">_includes</code>, <code class="language-plaintext highlighter-rouge">_layouts</code>, <code class="language-plaintext highlighter-rouge">_sass</code>, <code class="language-plaintext highlighter-rouge">assets</code> folders and files within. You won’t need these anymore as they’re bundled in the theme.</p>
+
+<p>If you customized any of these then leave them alone and only remove the untouched ones. If setup correctly your modified versions should act as <a href="http://jekyllrb.com/docs/themes/#overriding-theme-defaults">overrides</a> to the versions bundled with the theme.</p>
+
+<h2 id="step-2-update-gemfile">Step 2: Update <code class="language-plaintext highlighter-rouge">Gemfile</code></h2>
+
+<p>Replace <code class="language-plaintext highlighter-rouge">gem "github-pages</code> or <code class="language-plaintext highlighter-rouge">gem "jekyll"</code> with <code class="language-plaintext highlighter-rouge">gem "jekyll", "~&gt; 3.3.0"</code>. You’ll need the latest version of Jekyll<sup id="fnref:update-jekyll" role="doc-noteref"><a href="#fn:update-jekyll" class="footnote" rel="footnote">1</a></sup> for Minimal Mistakes to work and load all of the /assets/ properly.</p>
+
+<p>Add the Minimal Mistakes theme gem:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"minimal-mistakes-jekyll"</span>
+</code></pre></div></div>
+
+<p>When finished your <code class="language-plaintext highlighter-rouge">Gemfile</code> should look something like this:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="s2">"https://rubygems.org"</span>
+
+<span class="n">gem</span> <span class="s2">"jekyll"</span><span class="p">,</span> <span class="s2">"~&gt; 3.3.0"</span>
+<span class="n">gem</span> <span class="s2">"minimal-mistakes-jekyll"</span>
+</code></pre></div></div>
+
+<h2 id="step-3-run-bundler">Step 3: Run Bundler</h2>
+
+<p>Run <code class="language-plaintext highlighter-rouge">bundle install</code> (or <code class="language-plaintext highlighter-rouge">bundle update</code> if you’re updating an existing repo) to install/update Jekyll and the theme.</p>
+
+<h2 id="step-4-install-the-theme">Step 4: Install the Theme</h2>
+
+<p>Add <code class="language-plaintext highlighter-rouge">theme: "minimal-mistakes-jekyll"</code> to your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<p>If you’re migrating from an existing Minimal Mistakes site you shouldn’t have to change anything else after this. If it’s a new site consult then docs to <a href="/minimal-mistakes-master/docs/configuration/">properly config</a>.</p>
+
+<p class="notice--danger"><strong>Please Note:</strong> Paths for image headers, overlays, teasers, <a href="/minimal-mistakes-master/docs/helpers/#gallery">galleries</a>, and <a href="/minimal-mistakes-master/docs/helpers/#feature-row">feature rows</a> have changed and now require a full path. Instead of just <code class="language-plaintext highlighter-rouge">image: filename.jpg</code> you’ll need to use the full path eg: <code class="language-plaintext highlighter-rouge">image: assets/images/filename.jpg</code>. The preferred location is now <code class="language-plaintext highlighter-rouge">assets/images</code> but can be placed elsewhere or external hosted. This all applies for image references in <code class="language-plaintext highlighter-rouge">_config.yml</code> and <code class="language-plaintext highlighter-rouge">author.yml</code> as well.</p>
+
+<h2 id="step-5-jekyll-new-tweaks">Step 5: <code class="language-plaintext highlighter-rouge">jekyll new</code> Tweaks</h2>
+
+<p>If this is a new site be sure to add the following files to <code class="language-plaintext highlighter-rouge">_data/</code> and customize as you see fit. There is currently no way of bundling them in with the theme, so be sure to consult the docs on how to properly use both.</p>
+
+<ul>
+  <li><a href="https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml"><code class="language-plaintext highlighter-rouge">_data/ui-text.yml</code></a> - UI text <a href="/minimal-mistakes-master/docs/ui-text/">documentation</a></li>
+  <li><a href="https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml"><code class="language-plaintext highlighter-rouge">_data/navigation.yml</code></a> - navigation <a href="/minimal-mistakes-master/docs/navigation/">documentation</a></li>
+</ul>
+
+<p>You’ll also need to:</p>
+
+<ul>
+  <li>Replace <code class="language-plaintext highlighter-rouge">&lt;site root&gt;/index.html</code> with a modified <a href="https://github.com/mmistakes/minimal-mistakes/blob/master/index.html">Minimal Mistakes <code class="language-plaintext highlighter-rouge">index.html</code></a>.</li>
+  <li>Change <code class="language-plaintext highlighter-rouge">layout: post</code> in <code class="language-plaintext highlighter-rouge">_posts/0000-00-00-welcome-to-jekyll.markdown</code> to <code class="language-plaintext highlighter-rouge">layout: single</code>.</li>
+  <li>Remove <code class="language-plaintext highlighter-rouge">about.md</code>, or at the very least change <code class="language-plaintext highlighter-rouge">layout: page</code> to <code class="language-plaintext highlighter-rouge">layout: single</code> and remove references to <code class="language-plaintext highlighter-rouge">icon-github.html</code> (or <a href="https://github.com/jekyll/minima/tree/master/_includes">copy to your <code class="language-plaintext highlighter-rouge">_includes</code></a> if using).</li>
+</ul>
+
+<hr />
+
+<p>That’s it! If all goes well running <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> should spin-up your site. If you encounter any bumps please file an issue on GitHub and make sure to indicate you’re testing the pre-release Ruby gem version.</p>
+
+<p><a href="https://github.com/mmistakes/minimal-mistakes/issues/new" class="btn btn--info btn--large">File an issue</a></p>
+
+<p>Thanks!</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:update-jekyll" role="doc-endnote">
+      <p>You could also run <code class="language-plaintext highlighter-rouge">bundle update jekyll</code> to update Jekyll. <a href="#fnref:update-jekyll" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Michael Rose</name></author><category term="Jekyll" /><category term="update" /><summary type="html"><![CDATA[Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.]]></summary></entry><entry><title type="html">Gemified Theme – Beta Release</title><link href="http://localhost:4000/minimal-mistakes-master/docs/jekyll/gemified-theme-beta/" rel="alternate" type="text/html" title="Gemified Theme – Beta Release" /><published>2016-10-06T00:00:00-04:00</published><updated>2018-03-20T16:01:04-04:00</updated><id>http://localhost:4000/minimal-mistakes-master/docs/jekyll/gemified-theme-beta</id><content type="html" xml:base="http://localhost:4000/minimal-mistakes-master/docs/jekyll/gemified-theme-beta/"><![CDATA[<p>Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.</p>
+
+<p><a href="https://rubygems.org/gems/minimal-mistakes-jekyll"><code class="language-plaintext highlighter-rouge">minimal-mistakes-jekyll</code></a> can only be used with Jekyll proper. If you’re hosting on GitHub Pages or using that gem the theme won’t work. 3rd party themes haven’t been white-listed so it’s a no go for now.</p>
+
+<p>Fine with all that? Great. Let’s continue.</p>
+
+<p>If you’re migrating a site already using Minimal Mistakes and haven’t customized any of the <code class="language-plaintext highlighter-rouge">_includes</code>, <code class="language-plaintext highlighter-rouge">_layouts</code>, <code class="language-plaintext highlighter-rouge">_sass</code> partials, or <code class="language-plaintext highlighter-rouge">assets</code> this should be quick and painless.</p>
+
+<h2 id="step-1-remove-theme-files">Step 1: Remove Theme Files</h2>
+
+<p>Remove <code class="language-plaintext highlighter-rouge">_includes</code>, <code class="language-plaintext highlighter-rouge">_layouts</code>, <code class="language-plaintext highlighter-rouge">_sass</code>, <code class="language-plaintext highlighter-rouge">assets</code> folders and files within. You won’t need these anymore as they’re bundled in the theme.</p>
+
+<p>If you customized any of these then leave them alone and only remove the untouched ones. If setup correctly your modified versions should act as <a href="http://jekyllrb.com/docs/themes/#overriding-theme-defaults">overrides</a> to the versions bundled with the theme.</p>
+
+<h2 id="step-2-update-gemfile">Step 2: Update <code class="language-plaintext highlighter-rouge">Gemfile</code></h2>
+
+<p>Replace <code class="language-plaintext highlighter-rouge">gem "github-pages</code> or <code class="language-plaintext highlighter-rouge">gem "jekyll"</code> with <code class="language-plaintext highlighter-rouge">gem "jekyll", "~&gt; 3.3.0"</code>. You’ll need the latest version of Jekyll<sup id="fnref:update-jekyll" role="doc-noteref"><a href="#fn:update-jekyll" class="footnote" rel="footnote">1</a></sup> for Minimal Mistakes to work and load all of the /assets/ properly.</p>
+
+<p>Add the Minimal Mistakes theme gem:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"minimal-mistakes-jekyll"</span>
+</code></pre></div></div>
+
+<p>When finished your <code class="language-plaintext highlighter-rouge">Gemfile</code> should look something like this:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="s2">"https://rubygems.org"</span>
+
+<span class="n">gem</span> <span class="s2">"jekyll"</span><span class="p">,</span> <span class="s2">"~&gt; 3.3.0"</span>
+<span class="n">gem</span> <span class="s2">"minimal-mistakes-jekyll"</span>
+</code></pre></div></div>
+
+<h2 id="step-3-run-bundler">Step 3: Run Bundler</h2>
+
+<p>Run <code class="language-plaintext highlighter-rouge">bundle install</code> (or <code class="language-plaintext highlighter-rouge">bundle update</code> if you’re updating an existing repo) to install/update Jekyll and the theme.</p>
+
+<h2 id="step-4-install-the-theme">Step 4: Install the Theme</h2>
+
+<p>Add <code class="language-plaintext highlighter-rouge">theme: "minimal-mistakes-jekyll"</code> to your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<p>If you’re migrating from an existing Minimal Mistakes site you shouldn’t have to change anything else after this. If it’s a new site consult then docs to <a href="/minimal-mistakes-master/docs/configuration/">properly config</a>.</p>
+
+<p class="notice--danger"><strong>Please Note:</strong> Paths for image headers, overlays, teasers, <a href="/minimal-mistakes-master/docs/helpers/#gallery">galleries</a>, and <a href="/minimal-mistakes-master/docs/helpers/#feature-row">feature rows</a> have changed and now require a full path. Instead of just <code class="language-plaintext highlighter-rouge">image: filename.jpg</code> you’ll need to use the full path eg: <code class="language-plaintext highlighter-rouge">image: assets/images/filename.jpg</code>. The preferred location is now <code class="language-plaintext highlighter-rouge">assets/images</code> but can be placed elsewhere or external hosted. This all applies for image references in <code class="language-plaintext highlighter-rouge">_config.yml</code> and <code class="language-plaintext highlighter-rouge">author.yml</code> as well.</p>
+
+<h2 id="step-5-jekyll-new-tweaks">Step 5: <code class="language-plaintext highlighter-rouge">jekyll new</code> Tweaks</h2>
+
+<p>If this is a new site be sure to add the following files to <code class="language-plaintext highlighter-rouge">_data/</code> and customize as you see fit. There is currently no way of bundling them in with the theme, so be sure to consult the docs on how to properly use both.</p>
+
+<ul>
+  <li><a href="https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml"><code class="language-plaintext highlighter-rouge">_data/ui-text.yml</code></a> - UI text <a href="/minimal-mistakes-master/docs/ui-text/">documentation</a></li>
+  <li><a href="https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml"><code class="language-plaintext highlighter-rouge">_data/navigation.yml</code></a> - navigation <a href="/minimal-mistakes-master/docs/navigation/">documentation</a></li>
+</ul>
+
+<p>You’ll also need to:</p>
+
+<ul>
+  <li>Replace <code class="language-plaintext highlighter-rouge">&lt;site root&gt;/index.html</code> with a modified <a href="https://github.com/mmistakes/minimal-mistakes/blob/master/index.html">Minimal Mistakes <code class="language-plaintext highlighter-rouge">index.html</code></a>.</li>
+  <li>Change <code class="language-plaintext highlighter-rouge">layout: post</code> in <code class="language-plaintext highlighter-rouge">_posts/0000-00-00-welcome-to-jekyll.markdown</code> to <code class="language-plaintext highlighter-rouge">layout: single</code>.</li>
+  <li>Remove <code class="language-plaintext highlighter-rouge">about.md</code>, or at the very least change <code class="language-plaintext highlighter-rouge">layout: page</code> to <code class="language-plaintext highlighter-rouge">layout: single</code> and remove references to <code class="language-plaintext highlighter-rouge">icon-github.html</code> (or <a href="https://github.com/jekyll/minima/tree/master/_includes">copy to your <code class="language-plaintext highlighter-rouge">_includes</code></a> if using).</li>
+</ul>
+
+<hr />
+
+<p>That’s it! If all goes well running <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> should spin-up your site. If you encounter any bumps please file an issue on GitHub and make sure to indicate you’re testing the pre-release Ruby gem version.</p>
+
+<p><a href="https://github.com/mmistakes/minimal-mistakes/issues/new" class="btn btn--info btn--large">File an issue</a></p>
+
+<p>Thanks!</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:update-jekyll" role="doc-endnote">
+      <p>You could also run <code class="language-plaintext highlighter-rouge">bundle update jekyll</code> to update Jekyll. <a href="#fnref:update-jekyll" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Michael Rose</name></author><category term="docs" /><category term="Jekyll" /><category term="update" /><summary type="html"><![CDATA[Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.]]></summary></entry><entry><title type="html">Gemified Theme – Alpha Release</title><link href="http://localhost:4000/minimal-mistakes-master/docs/jekyll/gemified-theme-alpha/" rel="alternate" type="text/html" title="Gemified Theme – Alpha Release" /><published>2016-09-21T00:00:00-04:00</published><updated>2018-03-20T16:00:58-04:00</updated><id>http://localhost:4000/minimal-mistakes-master/docs/jekyll/gemified-theme-alpha</id><content type="html" xml:base="http://localhost:4000/minimal-mistakes-master/docs/jekyll/gemified-theme-alpha/"><![CDATA[<p>Jekyll <a href="http://jekyllrb.com/docs/themes/">themes distributed as Ruby gems</a> are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it”. Or dealing with merge conflicts when pulling in upstream commits to “upgrade it”.</p>
+
+<p>If you’re interested in testing out Minimal Mistakes as a gemified theme read on. There are a few caveats though:</p>
+
+<ol>
+  <li>Support for a theme <code class="language-plaintext highlighter-rouge">assets</code> folder was recently <a href="https://github.com/jekyll/jekyll/pull/5364">added to Jekyll core</a>, but has yet to be released or rolled into the <code class="language-plaintext highlighter-rouge">github-pages</code> gem. Meaning you can’t use Minimal Mistakes as a Ruby gem there just yet… locally served or self-hosted installs should be fine if you don’t mind using a pre-release version of Jekyll.</li>
+  <li>Windows users can’t currently use themes packaged as gems due to a <a href="https://github.com/jekyll/jekyll/issues/5192">bug with file paths</a> in Jekyll core. This is being worked on so hopefully a <a href="https://github.com/jekyll/jekyll/pull/5256">fix is on the way</a> soon.</li>
+</ol>
+
+<p>Fine with all that? Great. Let’s continue.</p>
+
+<p>If you’re migrating a site already using Minimal Mistakes and haven’t customized any of the <code class="language-plaintext highlighter-rouge">_includes</code>, <code class="language-plaintext highlighter-rouge">_layouts</code>, <code class="language-plaintext highlighter-rouge">_sass</code> partials, or <code class="language-plaintext highlighter-rouge">assets</code> this should be quick and painless.</p>
+
+<h2 id="step-1-remove-theme-files">Step 1: Remove Theme Files</h2>
+
+<p>Remove <code class="language-plaintext highlighter-rouge">_includes</code>, <code class="language-plaintext highlighter-rouge">_layouts</code>, <code class="language-plaintext highlighter-rouge">_sass</code>, <code class="language-plaintext highlighter-rouge">assets</code> folders and files within. You won’t need these anymore as they’re bundled in the theme.</p>
+
+<p>If you customized any of these then leave them alone and only remove the untouched ones. If setup correctly your modified versions should act as <a href="http://jekyllrb.com/docs/themes/#overriding-theme-defaults">overrides</a> to the versions bundled with the theme.</p>
+
+<h2 id="step-2-update-gemfile">Step 2: Update <code class="language-plaintext highlighter-rouge">Gemfile</code></h2>
+
+<p>In order to test you’ll need to install pre-release gems of Jekyll and Minimal Mistakes.</p>
+
+<p>Start by replacing <code class="language-plaintext highlighter-rouge">gem "github-pages"</code> or <code class="language-plaintext highlighter-rouge">gem "jekyll"</code> with the following:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"jekyll"</span><span class="p">,</span> <span class="ss">:git</span> <span class="o">=&gt;</span> <span class="s2">"https://github.com/jekyll/jekyll.git"</span>
+</code></pre></div></div>
+
+<p>Then add the pre-release Minimal Mistakes theme gem:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"minimal-mistakes-jekyll"</span><span class="p">,</span> <span class="ss">:git</span> <span class="o">=&gt;</span> <span class="s2">"https://github.com/mmistakes/minimal-mistakes.git"</span><span class="p">,</span> <span class="ss">:branch</span> <span class="o">=&gt;</span> <span class="s2">"feature/theme-gem"</span><span class="sb">`
+</span></code></pre></div></div>
+
+<p>When finished your <code class="language-plaintext highlighter-rouge">Gemfile</code> should look something like this:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="s2">"https://rubygems.org"</span>
+
+<span class="n">gem</span> <span class="s2">"jekyll"</span><span class="p">,</span> <span class="ss">:git</span> <span class="o">=&gt;</span> <span class="s2">"https://github.com/jekyll/jekyll.git"</span>
+<span class="n">gem</span> <span class="s2">"minimal-mistakes-jekyll"</span><span class="p">,</span> <span class="ss">:git</span> <span class="o">=&gt;</span> <span class="s2">"https://github.com/mmistakes/minimal-mistakes.git"</span><span class="p">,</span> <span class="ss">:branch</span> <span class="o">=&gt;</span> <span class="s2">"feature/theme-gem"</span>
+
+<span class="n">group</span> <span class="ss">:jekyll_plugins</span> <span class="k">do</span>
+  <span class="c1"># gem "jekyll-archives"</span>
+  <span class="n">gem</span> <span class="s2">"jekyll-paginate"</span>
+  <span class="n">gem</span> <span class="s2">"jekyll-sitemap"</span>
+  <span class="n">gem</span> <span class="s2">"jekyll-gist"</span>
+  <span class="n">gem</span> <span class="s2">"jekyll-feed"</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h2 id="step-3-run-bundler">Step 3: Run Bundler</h2>
+
+<p>Run <code class="language-plaintext highlighter-rouge">bundle install</code> (or <code class="language-plaintext highlighter-rouge">bundle update</code> if you’re updating an existing repo) to install the pre-release gems.</p>
+
+<h2 id="step-4-install-the-theme">Step 4: Install the Theme</h2>
+
+<p>Add <code class="language-plaintext highlighter-rouge">theme: "minimal-mistakes-jekyll"</code> to your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<p>If you’re migrating from an existing Minimal Mistakes site you shouldn’t have to change anything else after this. If it’s a new site consult then docs to <a href="/minimal-mistakes-master/docs/configuration/">properly config</a>.</p>
+
+<p class="notice--danger"><strong>Please Note:</strong> Paths for image headers, overlays, teasers, <a href="/minimal-mistakes-master/docs/helpers/#gallery">galleries</a>, and <a href="/minimal-mistakes-master/docs/helpers/#feature-row">feature rows</a> have changed and now require a full path. Instead of just <code class="language-plaintext highlighter-rouge">image: filename.jpg</code> you’ll need to use the full path eg: <code class="language-plaintext highlighter-rouge">image: assets/images/filename.jpg</code>. The preferred location is now <code class="language-plaintext highlighter-rouge">assets/images</code> but can be placed elsewhere or external hosted. This applies for image references in <code class="language-plaintext highlighter-rouge">_config.yml</code> and <code class="language-plaintext highlighter-rouge">author.yml</code>.</p>
+
+<h2 id="step-5-jekyll-new-tweaks">Step 5: <code class="language-plaintext highlighter-rouge">jekyll new</code> Tweaks</h2>
+
+<p>If this is a new site be sure to add the following files to <code class="language-plaintext highlighter-rouge">_data/</code> and customize as you see fit. There is currently no way of bundling them in with the theme, so be sure to consult the docs on how to properly use both.</p>
+
+<ul>
+  <li><a href="https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml"><code class="language-plaintext highlighter-rouge">_data/ui-text.yml</code></a> - UI text <a href="/minimal-mistakes-master/docs/ui-text/">documentation</a></li>
+  <li><a href="https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml"><code class="language-plaintext highlighter-rouge">_data/navigation.yml</code></a> - navigation <a href="/minimal-mistakes-master/docs/navigation/">documentation</a></li>
+</ul>
+
+<p>You’ll also need to:</p>
+
+<ul>
+  <li>Replace <code class="language-plaintext highlighter-rouge">&lt;site root&gt;/index.html</code> with a modified <a href="https://github.com/mmistakes/minimal-mistakes/blob/master/index.html">Minimal Mistakes <code class="language-plaintext highlighter-rouge">index.html</code></a>.</li>
+  <li>Change <code class="language-plaintext highlighter-rouge">layout: post</code> in <code class="language-plaintext highlighter-rouge">_posts/0000-00-00-welcome-to-jekyll.markdown</code> to <code class="language-plaintext highlighter-rouge">layout: single</code>.</li>
+  <li>Remove <code class="language-plaintext highlighter-rouge">about.md</code>, or at the very least change <code class="language-plaintext highlighter-rouge">layout: page</code> to <code class="language-plaintext highlighter-rouge">layout: single</code> and remove references to <code class="language-plaintext highlighter-rouge">icon-github.html</code> (or <a href="https://github.com/jekyll/minima/tree/master/_includes">copy to your <code class="language-plaintext highlighter-rouge">_includes</code></a> if using).</li>
+</ul>
+
+<hr />
+
+<p>That’s it! If all goes well running <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> should spin-up your site. If you encounter any bumps please file an issue on GitHub and make sure to indicate you’re testing the pre-release Ruby gem version.</p>
+
+<p><a href="https://github.com/mmistakes/minimal-mistakes/issues/new" class="btn btn--info btn--large">File an issue</a></p>
+
+<p>Thanks!</p>]]></content><author><name>Michael Rose</name></author><category term="docs" /><category term="Jekyll" /><category term="update" /><summary type="html"><![CDATA[Jekyll themes distributed as Ruby gems are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it”. Or dealing with merge conflicts when pulling in upstream commits to “upgrade it”.]]></summary></entry><entry><title type="html">Gemified Theme – Alpha Release</title><link href="http://localhost:4000/minimal-mistakes-master/jekyll/gemified-theme-alpha/" rel="alternate" type="text/html" title="Gemified Theme – Alpha Release" /><published>2016-09-21T00:00:00-04:00</published><updated>2018-03-20T16:00:58-04:00</updated><id>http://localhost:4000/minimal-mistakes-master/jekyll/gemified-theme-alpha</id><content type="html" xml:base="http://localhost:4000/minimal-mistakes-master/jekyll/gemified-theme-alpha/"><![CDATA[<p>Jekyll <a href="http://jekyllrb.com/docs/themes/">themes distributed as Ruby gems</a> are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it”. Or dealing with merge conflicts when pulling in upstream commits to “upgrade it”.</p>
+
+<p>If you’re interested in testing out Minimal Mistakes as a gemified theme read on. There are a few caveats though:</p>
+
+<ol>
+  <li>Support for a theme <code class="language-plaintext highlighter-rouge">assets</code> folder was recently <a href="https://github.com/jekyll/jekyll/pull/5364">added to Jekyll core</a>, but has yet to be released or rolled into the <code class="language-plaintext highlighter-rouge">github-pages</code> gem. Meaning you can’t use Minimal Mistakes as a Ruby gem there just yet… locally served or self-hosted installs should be fine if you don’t mind using a pre-release version of Jekyll.</li>
+  <li>Windows users can’t currently use themes packaged as gems due to a <a href="https://github.com/jekyll/jekyll/issues/5192">bug with file paths</a> in Jekyll core. This is being worked on so hopefully a <a href="https://github.com/jekyll/jekyll/pull/5256">fix is on the way</a> soon.</li>
+</ol>
+
+<p>Fine with all that? Great. Let’s continue.</p>
+
+<p>If you’re migrating a site already using Minimal Mistakes and haven’t customized any of the <code class="language-plaintext highlighter-rouge">_includes</code>, <code class="language-plaintext highlighter-rouge">_layouts</code>, <code class="language-plaintext highlighter-rouge">_sass</code> partials, or <code class="language-plaintext highlighter-rouge">assets</code> this should be quick and painless.</p>
+
+<h2 id="step-1-remove-theme-files">Step 1: Remove Theme Files</h2>
+
+<p>Remove <code class="language-plaintext highlighter-rouge">_includes</code>, <code class="language-plaintext highlighter-rouge">_layouts</code>, <code class="language-plaintext highlighter-rouge">_sass</code>, <code class="language-plaintext highlighter-rouge">assets</code> folders and files within. You won’t need these anymore as they’re bundled in the theme.</p>
+
+<p>If you customized any of these then leave them alone and only remove the untouched ones. If setup correctly your modified versions should act as <a href="http://jekyllrb.com/docs/themes/#overriding-theme-defaults">overrides</a> to the versions bundled with the theme.</p>
+
+<h2 id="step-2-update-gemfile">Step 2: Update <code class="language-plaintext highlighter-rouge">Gemfile</code></h2>
+
+<p>In order to test you’ll need to install pre-release gems of Jekyll and Minimal Mistakes.</p>
+
+<p>Start by replacing <code class="language-plaintext highlighter-rouge">gem "github-pages"</code> or <code class="language-plaintext highlighter-rouge">gem "jekyll"</code> with the following:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"jekyll"</span><span class="p">,</span> <span class="ss">:git</span> <span class="o">=&gt;</span> <span class="s2">"https://github.com/jekyll/jekyll.git"</span>
+</code></pre></div></div>
+
+<p>Then add the pre-release Minimal Mistakes theme gem:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"minimal-mistakes-jekyll"</span><span class="p">,</span> <span class="ss">:git</span> <span class="o">=&gt;</span> <span class="s2">"https://github.com/mmistakes/minimal-mistakes.git"</span><span class="p">,</span> <span class="ss">:branch</span> <span class="o">=&gt;</span> <span class="s2">"feature/theme-gem"</span><span class="sb">`
+</span></code></pre></div></div>
+
+<p>When finished your <code class="language-plaintext highlighter-rouge">Gemfile</code> should look something like this:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">source</span> <span class="s2">"https://rubygems.org"</span>
+
+<span class="n">gem</span> <span class="s2">"jekyll"</span><span class="p">,</span> <span class="ss">:git</span> <span class="o">=&gt;</span> <span class="s2">"https://github.com/jekyll/jekyll.git"</span>
+<span class="n">gem</span> <span class="s2">"minimal-mistakes-jekyll"</span><span class="p">,</span> <span class="ss">:git</span> <span class="o">=&gt;</span> <span class="s2">"https://github.com/mmistakes/minimal-mistakes.git"</span><span class="p">,</span> <span class="ss">:branch</span> <span class="o">=&gt;</span> <span class="s2">"feature/theme-gem"</span>
+
+<span class="n">group</span> <span class="ss">:jekyll_plugins</span> <span class="k">do</span>
+  <span class="c1"># gem "jekyll-archives"</span>
+  <span class="n">gem</span> <span class="s2">"jekyll-paginate"</span>
+  <span class="n">gem</span> <span class="s2">"jekyll-sitemap"</span>
+  <span class="n">gem</span> <span class="s2">"jekyll-gist"</span>
+  <span class="n">gem</span> <span class="s2">"jekyll-feed"</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h2 id="step-3-run-bundler">Step 3: Run Bundler</h2>
+
+<p>Run <code class="language-plaintext highlighter-rouge">bundle install</code> (or <code class="language-plaintext highlighter-rouge">bundle update</code> if you’re updating an existing repo) to install the pre-release gems.</p>
+
+<h2 id="step-4-install-the-theme">Step 4: Install the Theme</h2>
+
+<p>Add <code class="language-plaintext highlighter-rouge">theme: "minimal-mistakes-jekyll"</code> to your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<p>If you’re migrating from an existing Minimal Mistakes site you shouldn’t have to change anything else after this. If it’s a new site consult then docs to <a href="/minimal-mistakes-master/docs/configuration/">properly config</a>.</p>
+
+<p class="notice--danger"><strong>Please Note:</strong> Paths for image headers, overlays, teasers, <a href="/minimal-mistakes-master/docs/helpers/#gallery">galleries</a>, and <a href="/minimal-mistakes-master/docs/helpers/#feature-row">feature rows</a> have changed and now require a full path. Instead of just <code class="language-plaintext highlighter-rouge">image: filename.jpg</code> you’ll need to use the full path eg: <code class="language-plaintext highlighter-rouge">image: assets/images/filename.jpg</code>. The preferred location is now <code class="language-plaintext highlighter-rouge">assets/images</code> but can be placed elsewhere or external hosted. This applies for image references in <code class="language-plaintext highlighter-rouge">_config.yml</code> and <code class="language-plaintext highlighter-rouge">author.yml</code>.</p>
+
+<h2 id="step-5-jekyll-new-tweaks">Step 5: <code class="language-plaintext highlighter-rouge">jekyll new</code> Tweaks</h2>
+
+<p>If this is a new site be sure to add the following files to <code class="language-plaintext highlighter-rouge">_data/</code> and customize as you see fit. There is currently no way of bundling them in with the theme, so be sure to consult the docs on how to properly use both.</p>
+
+<ul>
+  <li><a href="https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml"><code class="language-plaintext highlighter-rouge">_data/ui-text.yml</code></a> - UI text <a href="/minimal-mistakes-master/docs/ui-text/">documentation</a></li>
+  <li><a href="https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml"><code class="language-plaintext highlighter-rouge">_data/navigation.yml</code></a> - navigation <a href="/minimal-mistakes-master/docs/navigation/">documentation</a></li>
+</ul>
+
+<p>You’ll also need to:</p>
+
+<ul>
+  <li>Replace <code class="language-plaintext highlighter-rouge">&lt;site root&gt;/index.html</code> with a modified <a href="https://github.com/mmistakes/minimal-mistakes/blob/master/index.html">Minimal Mistakes <code class="language-plaintext highlighter-rouge">index.html</code></a>.</li>
+  <li>Change <code class="language-plaintext highlighter-rouge">layout: post</code> in <code class="language-plaintext highlighter-rouge">_posts/0000-00-00-welcome-to-jekyll.markdown</code> to <code class="language-plaintext highlighter-rouge">layout: single</code>.</li>
+  <li>Remove <code class="language-plaintext highlighter-rouge">about.md</code>, or at the very least change <code class="language-plaintext highlighter-rouge">layout: page</code> to <code class="language-plaintext highlighter-rouge">layout: single</code> and remove references to <code class="language-plaintext highlighter-rouge">icon-github.html</code> (or <a href="https://github.com/jekyll/minima/tree/master/_includes">copy to your <code class="language-plaintext highlighter-rouge">_includes</code></a> if using).</li>
+</ul>
+
+<hr />
+
+<p>That’s it! If all goes well running <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> should spin-up your site. If you encounter any bumps please file an issue on GitHub and make sure to indicate you’re testing the pre-release Ruby gem version.</p>
+
+<p><a href="https://github.com/mmistakes/minimal-mistakes/issues/new" class="btn btn--info btn--large">File an issue</a></p>
+
+<p>Thanks!</p>]]></content><author><name>Michael Rose</name></author><category term="Jekyll" /><category term="update" /><summary type="html"><![CDATA[Jekyll themes distributed as Ruby gems are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it”. Or dealing with merge conflicts when pulling in upstream commits to “upgrade it”.]]></summary></entry></feed>
